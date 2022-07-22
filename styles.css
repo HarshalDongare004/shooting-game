@@ -1,0 +1,194 @@
+body {
+  margin-inline: 40px;
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#arena {
+  background-color: #f1efeb;
+  border: 20px solid black;
+  border-left-color: rebeccapurple;
+  border-right-color: green;
+  border-left-width: 20px;
+  border-right-width: 20px;
+  height: 400px;
+  overflow: hidden;
+  align-content: center;
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+}
+
+#game-title {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: #9fa4c4;
+  background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+}
+
+button,
+div {
+  font-family: "Montserrat", sans-serif;
+}
+#player1-banner {
+  position: relative;
+  float: left;
+  height: 98%;
+  width: 65px;
+  border: 2px solid red;
+  margin: 6px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1bb9dd;
+}
+
+#player1Fire {
+  position: relative;
+  top: 44%;
+  float: left;
+  height: 10%;
+  width: 70px;
+  margin-left: 15px;
+  /* background-image: url("Images/p1Fire.png"); */
+}
+
+#player1 {
+  position: relative;
+  float: left;
+  top: 40%;
+  height: 70px;
+  width: 70px;
+  margin-left: 20px;
+}
+
+#player2 {
+  position: relative;
+  float: right;
+  top: 40%;
+  height: 70px;
+  width: 70px;
+  margin-left: 67px;
+  right: 35px;
+}
+
+#player2-banner {
+  position: relative;
+  float: right;
+  height: 90%;
+  width: 70px;
+  border: 2px solid green;
+  margin: 10px;
+  writing-mode: vertical-rl;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1bb9dd;
+}
+
+#player2Fire {
+  position: relative;
+  float: right;
+  top: 44%;
+  height: 30px;
+  width: 45px;
+  margin-right: 20px;
+}
+
+#shootBtn {
+  /* background-color: red; */
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.ScoreBoard {
+  border: 1px solid black;
+  background-color: black;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 35% 35% auto;
+}
+
+.item {
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.result {
+  border: 4px solid black;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  padding: 40px;
+  display: grid;
+  font-weight: bold;
+}
+
+.result-item {
+  background-color: rgb(78, 193, 209);
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+#resetBtn {
+  /* background-color: green; */
+  background-color: #feae96;
+  background-image: linear-gradient(315deg, #feae96 0%, #fe0944 74%);
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#player1FireScore {
+  font-size: 50px;
+  font-weight: bold;
+}
+#player2FireScore {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.child-container {
+  width: 46%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+  margin: 10px;
+  position: relative;
+}

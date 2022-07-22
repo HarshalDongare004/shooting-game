@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting game</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="game-title">Shooting Game</h1>
+
+    <section id="arena">
+        <!-- player 1  -->
+        <h2 id="player1-banner">Player 1 </h2>
+        <div id="player1">
+            <img src="images/p1.png" alt="Player 1" height="70px" width="100px">
+        </div>
+        <div id="player1Fire">
+            <img src="images/p1Fire.png" height ="70px" width="110px" alt="p1Fire" >
+            <span id="player1FireScore"></span>
+        </div>
+
+
+        <!-- player 2  -->
+        <h2 id="player2-banner">Player 2 </h2>
+        <div id="player2">
+            <img src="images/p2.png" alt="Player 2" height="70px" width="100px">
+        </div>
+        <div id="player2Fire">
+            <img src="images/p2Fire.png" height ="70px" width="110px" alt="p2Fire" >
+            <span id="player2FireScore"></span>
+        </div>
+
+
+    </section>
+
+
+    <!-- BUTTONS -->
+
+    <br><br>
+    <button id="shootBtn" onclick="shootBtn()">Shoot</button>
+    <button id="resetBtn" onclick="resetBtn()"> Reset</button>
+
+
+    <br>
+    <br>
+
+    <section class="scoreBoard">
+    <div class="container">
+        <div class="child-container">
+            <div class="item" id="item-1">Player-1</div>
+            <div class="item" id="item-2">Win</div>
+            <div class="item" id="item-3">0</div>
+        </div>
+        <div class="child-container">
+            <div class="item" id="item-4">Player-2</div>
+            <div class="item" id="item-5">win</div>
+            <div class="item" id="item-6">0</div>
+        </div>
+    </div>
+
+    </section>
+
+   
+<br>
+    <section class="result">
+     
+        <p class="result-item" id = "item-7"></p>
+      
+    </section>
+
+    <script src="game.js"></script>
+</body>
+</html>
